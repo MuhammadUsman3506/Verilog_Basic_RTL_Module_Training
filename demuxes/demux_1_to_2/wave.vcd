@@ -1,0 +1,62 @@
+$date
+	Wed Jul 26 17:42:35 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_demux_1_to_2 $end
+$var wire 32 ! o_data1 [31:0] $end
+$var wire 32 " o_data0 [31:0] $end
+$var reg 32 # i_data [31:0] $end
+$var reg 1 $ i_sel $end
+$scope module inst_demux_1_to_2 $end
+$var wire 32 % i_data [31:0] $end
+$var wire 1 $ sel $end
+$var reg 32 & o_data0 [31:0] $end
+$var reg 32 ' o_data1 [31:0] $end
+$upscope $end
+$scope task stimulus $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b10010 &
+b10010 %
+0$
+b10010 #
+b10010 "
+b0 !
+$end
+#5
+b0 "
+b0 &
+b0 #
+b0 %
+#10
+b10000 !
+b10000 '
+1$
+b10000 #
+b10000 %
+#15
+b0 !
+b0 '
+b110 "
+b110 &
+0$
+b110 #
+b110 %
+#20
+b10000 !
+b10000 '
+b0 "
+b0 &
+1$
+b10000 #
+b10000 %
+#500

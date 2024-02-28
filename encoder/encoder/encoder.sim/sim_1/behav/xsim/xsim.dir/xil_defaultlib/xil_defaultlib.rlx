@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+F:/Digital_Logic_Design/components/genaric_components/encoder/encoder.sv,1691475822,systemVerilog,,F:/Digital_Logic_Design/components/genaric_components/encoder/or.sv,,encoder,,,,,,,,
+F:/Digital_Logic_Design/components/genaric_components/encoder/encoder/encoder.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+F:/Digital_Logic_Design/components/genaric_components/encoder/or.sv,1691474405,systemVerilog,,F:/Digital_Logic_Design/components/genaric_components/encoder/tb_encoder.sv,,or_gate,,,,,,,,
+F:/Digital_Logic_Design/components/genaric_components/encoder/tb_encoder.sv,1691476215,systemVerilog,,,,tb_encoder,,,,,,,,

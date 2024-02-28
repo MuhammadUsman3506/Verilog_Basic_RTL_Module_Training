@@ -1,0 +1,54 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_01094B78 .scope module, "tb_and_gate" "tb_and_gate" 2 1;
+ .timescale 0 0;
+v0109D6F0_0 .var "in0", 0 0;
+v0109D748_0 .var "in1", 0 0;
+v0109D7A0_0 .net "out", 0 0, v0109D698_0; 1 drivers
+S_01092B80 .scope module, "inst_and_gate" "and_gate" 2 7, 3 1, S_01094B78;
+ .timescale 0 0;
+v01092C08_0 .net "in0", 0 0, v0109D6F0_0; 1 drivers
+v01092C60_0 .net "in1", 0 0, v0109D748_0; 1 drivers
+v0109D698_0 .var "out", 0 0;
+E_010970D8 .event edge, v01092C08_0, v01092C60_0;
+    .scope S_01092B80;
+T_0 ;
+    %wait E_010970D8;
+    %load/v 8, v01092C08_0, 1;
+    %load/v 9, v01092C60_0, 1;
+    %and 8, 9, 1;
+    %set/v v0109D698_0, 8, 1;
+    %jmp T_0;
+    .thread T_0, $push;
+    .scope S_01094B78;
+T_1 ;
+    %vpi_call 2 17 "$dumpfile", "wave.vcd";
+    %vpi_call 2 18 "$dumpvars", 1'sb0, S_01094B78;
+    %set/v v0109D6F0_0, 0, 1;
+    %set/v v0109D748_0, 0, 1;
+    %delay 30, 0;
+    %set/v v0109D6F0_0, 0, 1;
+    %set/v v0109D748_0, 1, 1;
+    %delay 30, 0;
+    %set/v v0109D6F0_0, 1, 1;
+    %set/v v0109D748_0, 0, 1;
+    %delay 30, 0;
+    %set/v v0109D6F0_0, 1, 1;
+    %set/v v0109D748_0, 1, 1;
+    %delay 30, 0;
+    %set/v v0109D6F0_0, 0, 1;
+    %set/v v0109D748_0, 1, 1;
+    %delay 30, 0;
+    %vpi_call 2 35 "$finish";
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_and_gate.v";
+    "and_gate.v";

@@ -1,0 +1,159 @@
+$date
+	Mon Jul  3 16:35:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mux_4_to_1 $end
+$var wire 32 ! o_data [31:0] $end
+$var reg 32 " i_data0 [31:0] $end
+$var reg 32 # i_data1 [31:0] $end
+$var reg 32 $ i_data2 [31:0] $end
+$var reg 32 % i_data3 [31:0] $end
+$var reg 2 & i_sel [1:0] $end
+$scope module inst_mux_4_to_1 $end
+$var wire 32 ' i_data0 [31:0] $end
+$var wire 32 ( i_data1 [31:0] $end
+$var wire 32 ) i_data2 [31:0] $end
+$var wire 32 * i_data3 [31:0] $end
+$var wire 2 + i_sel [1:0] $end
+$var reg 32 , o_data [31:0] $end
+$upscope $end
+$scope task stimulus $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b10 +
+b110 *
+b0 )
+b1000 (
+b10010 '
+b10 &
+b110 %
+b0 $
+b1000 #
+b10010 "
+b0 !
+$end
+#5
+b1 !
+b1 ,
+b10000 %
+b10000 *
+b1 $
+b1 )
+b110 #
+b110 (
+b11000 "
+b11000 '
+#10
+b11000 !
+b11000 ,
+b11 &
+b11 +
+b11000 %
+b11000 *
+b11110 $
+b11110 )
+b10011 #
+b10011 (
+b10111 "
+b10111 '
+#15
+b1100 !
+b1100 ,
+b0 &
+b0 +
+b11110 %
+b11110 *
+b1010 $
+b1010 )
+b1100 #
+b1100 (
+b1100 "
+b1100 '
+#20
+b11000 !
+b11000 ,
+b1 &
+b1 +
+b1100 %
+b1100 *
+b11111 $
+b11111 )
+b11000 #
+b11000 (
+b1 "
+b1 '
+#25
+b1100 !
+b1100 ,
+b0 &
+b0 +
+b10 %
+b10 *
+b1011 $
+b1011 )
+b10101 #
+b10101 (
+b1100 "
+b1100 '
+#30
+b10010 !
+b10010 ,
+b11 &
+b11 +
+b10010 %
+b10010 *
+b1000 $
+b1000 )
+b10000 #
+b10000 (
+b110 "
+b110 '
+#35
+b1001 !
+b1001 ,
+b0 &
+b0 +
+b0 %
+b0 *
+b1 $
+b1 )
+b1001 #
+b1001 (
+b1001 "
+b1001 '
+#40
+b0 !
+b0 ,
+b10 &
+b10 +
+b1010 %
+b1010 *
+b0 $
+b0 )
+b1101 #
+b1101 (
+b10110 "
+b10110 '
+#45
+b1100 !
+b1100 ,
+b0 &
+b0 +
+b1100 %
+b1100 *
+b10000 $
+b10000 )
+b10010 #
+b10010 (
+b1100 "
+b1100 '
+#500

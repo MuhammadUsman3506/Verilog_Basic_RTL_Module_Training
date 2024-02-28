@@ -1,0 +1,44 @@
+$date
+	Sun Jun 25 19:45:28 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mux_2_to_1 $end
+$var wire 32 ! out [31:0] $end
+$var reg 32 " in0 [31:0] $end
+$var reg 32 # in1 [31:0] $end
+$var reg 1 $ s_l $end
+$scope module inst_mux $end
+$var wire 32 % in0 [31:0] $end
+$var wire 32 & in1 [31:0] $end
+$var wire 1 $ s_l $end
+$var reg 32 ' out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+b0 !
+$end
+#50
+b1 !
+b1 '
+b10 #
+b10 &
+b1 "
+b1 %
+#150
+b10 !
+b10 '
+1$
+#250

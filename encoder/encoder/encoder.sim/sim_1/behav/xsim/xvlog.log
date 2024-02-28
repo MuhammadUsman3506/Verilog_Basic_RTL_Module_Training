@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Digital_Logic_Design/components/genaric_components/encoder/encoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Digital_Logic_Design/components/genaric_components/encoder/or.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Digital_Logic_Design/components/genaric_components/encoder/tb_encoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_encoder

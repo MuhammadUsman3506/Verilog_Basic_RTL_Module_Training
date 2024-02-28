@@ -1,0 +1,50 @@
+$date
+	Thu Apr 27 13:28:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_comparator $end
+$var wire 1 ! out $end
+$var reg 4 " in0 [3:0] $end
+$var reg 4 # in1 [3:0] $end
+$scope module inst_comparator $end
+$var wire 4 $ in0 [3:0] $end
+$var wire 4 % in1 [3:0] $end
+$var reg 1 & out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+b0 %
+b0 $
+b0 #
+b0 "
+1!
+$end
+#30
+0&
+0!
+b10 #
+b10 %
+b1 "
+b1 $
+#60
+b11 #
+b11 %
+#90
+1&
+1!
+b11 "
+b11 $
+#120
+b111 #
+b111 %
+b111 "
+b111 $
+#150
